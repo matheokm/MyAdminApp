@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyAdminApp.MyAdminShell"
+            xmlns:Views="clr-namespace:MyAdminApp.Views">
+    <FlyoutItem Title="Bienvenido a MyAdminApp">
+        <Views:Bienvenida/>
+    </FlyoutItem>
+    <FlyoutItem Title="Modo Admninistrador">
+        <Tab Title="Ingreso">
+            <Views:LoginAdministrador/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Registro de Documento">
+        <Tab Title="Ingreso de Documento">
+            <Views:RegistroDocumentoUsuario/>
+        </Tab>
+        <Tab Title="Consultar Documento">
+            <Views:RegistroDocumentoUsuario/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Sobre el App">
+        <Views:RegistroDocumentoUsuario/>
+    </FlyoutItem>
+</Shell>

@@ -1,0 +1,17 @@
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\bin\Debug\netstandard2.0\MyAdminApp.deps.json
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\bin\Debug\netstandard2.0\MyAdminApp.dll
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\bin\Debug\netstandard2.0\ref\MyAdminApp.dll
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\bin\Debug\netstandard2.0\MyAdminApp.pdb
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\MyAdminShell.xaml.g.cs
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\Views\Bienvenida.xaml.g.cs
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\Views\LoginAdministrador.xaml.g.cs
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\Views\RegistroDocumentoUsuario.xaml.g.cs
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\MyAdminApp.AssemblyInfoInputs.cache
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\MyAdminApp.AssemblyInfo.cs
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\MyAdminApp.csproj.CoreCompileInputs.cache
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\MyAdminApp.dll
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\ref\MyAdminApp.dll
+C:\Users\matheokm\source\repos\MyAdminApp\MyAdminApp\obj\Debug\netstandard2.0\MyAdminApp.pdb
