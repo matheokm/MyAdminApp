@@ -20,7 +20,7 @@
             <Image Source="logo.png"  Aspect="AspectFit"  
                    Grid.Row="1" Grid.Column="0" Grid.RowSpan="2"                  
                    HorizontalOptions="Center" />
-            <Label Text="Aplicativo de Administracion" FontSize="Title" Grid.Row="3" Grid.Column="0" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+            <Label Text="App de Administracion del Conjunto Habitacional Kairos II " FontSize="Title" Grid.Row="3" Grid.Column="0" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

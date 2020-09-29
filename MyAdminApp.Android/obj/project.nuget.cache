@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HsAEv2sMhCJvqYZvMrxLGqHkHn01U2bQDNs14UBXg/5MqTRtPm46uKrPjgkyhnC4y7lXiePB5qw+G+YHMoaPLA==",
+  "dgSpecHash": "Kmi6Gu6Uv9r0tQNZTwL1UHB5M4GqZHU80oD4xVCI+RhRw9HgVOky/JnRnSPA3Q7AkkBi+hR1cAaImBI4Th92uw==",
   "success": true,
-  "projectFilePath": "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matheokm\\.nuget\\packages\\acr.userdialogs\\7.1.0.454\\acr.userdialogs.7.1.0.454.nupkg.sha512",
     "C:\\Users\\matheokm\\.nuget\\packages\\andhud\\1.4.2\\andhud.1.4.2.nupkg.sha512",

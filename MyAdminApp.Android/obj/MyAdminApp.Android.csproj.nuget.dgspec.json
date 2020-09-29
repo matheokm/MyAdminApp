@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj": {}
+    "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj": {}
   },
   "projects": {
-    "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj": {
+    "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
         "projectName": "MyAdminApp.Android",
-        "projectPath": "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
+        "projectPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
         "packagesPath": "C:\\Users\\matheokm\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp.Android\\obj\\",
+        "outputPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj": {
-                "projectPath": "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj"
+              "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj": {
+                "projectPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj": {
+    "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj",
+        "projectUniqueName": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj",
         "projectName": "MyAdminApp",
-        "projectPath": "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj",
+        "projectPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj",
         "packagesPath": "C:\\Users\\matheokm\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\Visual Studio\\MyAdminApp\\MyAdminApp\\MyAdminApp\\obj\\",
+        "outputPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
