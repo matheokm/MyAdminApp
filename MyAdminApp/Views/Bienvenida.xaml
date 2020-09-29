@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyAdminApp.Views.Bienvenida"
+             BackgroundColor="SandyBrown"
+             Title="My Admin App">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Source="logo.png"  Aspect="AspectFit"  
+                   Grid.Row="1" Grid.Column="0" Grid.RowSpan="2"                  
+                   HorizontalOptions="Center" />
+            <Label Text="Aplicativo de Administracion" FontSize="Title" Grid.Row="3" Grid.Column="0" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

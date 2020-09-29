@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyAdminApp.Views.LoginAdministrador"
+             BackgroundColor="SandyBrown"
+             Title="My Admin App">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Image Source="logo.png"  Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            
+            <Entry Placeholder="Usuario" 
+                   WidthRequest="250" 
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+
+            <Entry Placeholder="Password"
+                   IsPassword="True"
+                   WidthRequest="250"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="Iniciar sesión" 
+                    WidthRequest="150"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Orange"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
