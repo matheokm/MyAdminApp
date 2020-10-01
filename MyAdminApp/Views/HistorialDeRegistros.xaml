@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyAdminApp.Views.HistorialDeRegistros"
+             xmlns:local="clr-namespace:MyAdminApp.Views"
+             xmlns:vm="clr-namespace:MyAdminApp.ViewModels">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Button Text="Ver Detalles"
+                    Command="{Binding ComandoVerDetalles}"
+                    CommandParameter="{x:Type local:RegistroDocumentoUsuario}"/>
+
+            <Button Text="Nuevo Producto"
+                    Command="{Binding ComandoAltaRegistro}"
+                    CommandParameter="{x:Type local:HistorialDeRegistros}"/>
+
+            <RefreshView IsRefreshing="{Binding Actualizando}"
+                         Command="{Binding ComandoCargarDatos}"
+                         RefreshColor="Green">
+                <CollectionView ItemsSource="{Binding Registros}"
+                                SelectedItem="{Binding RegistroSeleccionado}"
+                                SelectionMode="Single">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="75"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Fecha}"
+                                       TextColor="Blue"
+                                       FontSize="Large"
+                                       Grid.Row="0" 
+                                       Grid.Column="0"/>
+
+                                <Label Text="{Binding Usuario}"
+                                       TextColor="Blue"
+                                       FontSize="Large"
+                                       Grid.Row="0"
+                                       Grid.Column="1"/>
+
+                                <Label Text="{Binding Descripcion}"
+                                       TextColor="Blue"
+                                       FontSize="Large"
+                                       Grid.Row="1"
+                                       Grid.Column="0"/>
+
+                                <Label Text="{Binding Documento}"
+                                       TextColor="Blue"
+                                       FontSize="Large"
+                                       Grid.Row="1"
+                                       Grid.Column="1"/>
+
+                                <Label Text="{Binding Numero}"
+                                       TextColor="Blue"
+                                       FontSize="Large"
+                                       Grid.Row="2"
+                                       Grid.Column="0"/>
+
+                                <Label Text="{Binding Valor, StringFormat='{0:C}'}"
+                                       TextColor="Blue"
+                                       FontSize="Medium"
+                                       Grid.Row="2"
+                                       Grid.Column="1"/>
+
+                                <Label Text="{Binding Observacion}"
+                                       TextColor="Orange"
+                                       FontSize="Medium"
+                                       Grid.Row="3"
+                                       Grid.Column="0"
+                                       Grid.ColumnSpan="2"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

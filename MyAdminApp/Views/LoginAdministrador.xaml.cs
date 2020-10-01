@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyAdminApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,14 @@ namespace MyAdminApp.Views
         public LoginAdministrador()
         {
             InitializeComponent();
+        }
+
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            UsuariosViewModel vm = (BindingContext as UsuariosViewModel);
+            await vm.ObtenerTipos();
         }
     }
 }

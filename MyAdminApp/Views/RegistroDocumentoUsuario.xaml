@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyAdminApp.Views.RegistroDocumentoUsuario"
              BackgroundColor="SandyBrown"
-             Title="My Admin App">
+             Title="My Admin App"
+             xmlns:v ="clr-namespace:MyAdminApp.Views"
+             xmlns:vm ="clr-namespace:MyAdminApp.ViewModels">
     <ContentPage.Content>
         <Grid Margin="15">
             <Grid.RowDefinitions>
@@ -28,25 +30,37 @@
                    TextColor="OrangeRed" FontSize="Subtitle" Text="REGISTRO DE DOCUMENTO" HorizontalOptions="CenterAndExpand"/>
 
             <Label Grid.Row="1" Grid.Column="0" TextColor="Blue" Text="FECHA: "/>
-            <DatePicker Grid.Row="1" Grid.Column="1" />
-            
-            <Label Grid.Row="2" Grid.Column="0" TextColor="Blue" Text="USUARIO: "/>
-            <Entry Grid.Row="2" Grid.Column="1" />
+            <DatePicker Grid.Row="1" Grid.Column="1" Date="{Binding Fecha}" />
+
+            <CollectionView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3"
+                            Header="Usuario:"
+                            ItemsSource="{Binding Usuarios}"
+                            SelectedItem="{Binding SeleccionUsuario, Mode=TwoWay}"
+                            SelectionMode="Single"
+                            HeightRequest="250">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Usuario}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
 
             <Label Grid.Row="3" Grid.Column="0" TextColor="Blue" Text="DESCRIPCIÓN: "/>
-            <Entry Grid.Row="3" Grid.Column="1" />
+            <Entry Grid.Row="3" Grid.Column="1" Text="{Binding Descripcion}"/>
 
             <Label Grid.Row="4" Grid.Column="0" TextColor="Blue" Text="FACTURA  Ó RECIBO"/>
-            <Switch Grid.Row="4" Grid.Column="1" HorizontalOptions="CenterAndExpand" />
+            <Switch Grid.Row="4" Grid.Column="1" HorizontalOptions="CenterAndExpand" IsToggled="{Binding TipoDocumento}"/>
 
             <Label Grid.Row="5" Grid.Column="0" TextColor="Blue" Text="NÚMERO DE DOCUMENTO: "/>
-            <Entry Grid.Row="5" Grid.Column="1" />
+            <Entry Grid.Row="5" Grid.Column="1" Text="{Binding NroDocumento}"/>
 
             <Label Grid.Row="6" Grid.Column="0" TextColor="Blue" Text="VALOR: "/>
-            <Entry Grid.Row="6" Grid.Column="1" />
+            <Entry Grid.Row="6" Grid.Column="1" Text="{Binding Valor}"/>
 
             <Label Grid.Row="7" Grid.Column="0" TextColor="Blue" Text="OBSERVACIONES: "/>
-            <Entry Grid.Row="7" Grid.Column="1" />
+            <Entry Grid.Row="7" Grid.Column="1" Text="{Binding Observaciones}"/>
 
             <Label Grid.Row="1" Grid.Column="2" TextColor="Blue" Text="IMAGEN DEL DOCUMENTO" HorizontalOptions="CenterAndExpand"/>
             <Image Grid.Row="2" Grid.Column="2" Grid.RowSpan="8" 
@@ -58,4 +72,4 @@
         </Grid>
 
     </ContentPage.Content>
-</ContentPage> 
+</ContentPage>

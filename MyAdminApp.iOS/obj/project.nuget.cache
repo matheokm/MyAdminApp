@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CRJlCSCaXoysD3jHcB5b0LAZ+NRj7kTL/xUSUzU7NyfEzVC8nrsVvmoR4H7DvYgsQdtT1oqzyA2Q2eEuCMNnqQ==",
+  "dgSpecHash": "oE1+ss1oOftjHm789Kd3kd6CIvocjPRib6ZTxEM0hO7lcmkebIDfpVuNQCpvzWvauOtZbAh0mVbKaOWUYBXUOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.iOS\\MyAdminApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp.iOS\\MyAdminApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matheokm\\.nuget\\packages\\acr.userdialogs\\7.1.0.454\\acr.userdialogs.7.1.0.454.nupkg.sha512",
     "C:\\Users\\matheokm\\.nuget\\packages\\btprogresshud\\1.3.1\\btprogresshud.1.3.1.nupkg.sha512",

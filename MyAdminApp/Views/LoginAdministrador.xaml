@@ -9,13 +9,15 @@
             <Image Source="logo.png"  Aspect="AspectFit"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
-            
+
             <Entry Placeholder="Usuario" 
+                   Text="{Binding Usuario}"
                    WidthRequest="250" 
                    VerticalOptions="Center"
                    HorizontalOptions="Center"/>
 
             <Entry Placeholder="Password"
+                   Text="{Binding Password}"
                    IsPassword="True"
                    WidthRequest="250"
                    VerticalOptions="Center"

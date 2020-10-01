@@ -1208,11 +1208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.iOS\\MyAdminApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp.iOS\\MyAdminApp.iOS.csproj",
       "projectName": "MyAdminApp.iOS",
-      "projectPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.iOS\\MyAdminApp.iOS.csproj",
+      "projectPath": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp.iOS\\MyAdminApp.iOS.csproj",
       "packagesPath": "C:\\Users\\matheokm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1233,8 +1233,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj": {
-              "projectPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj"
+            "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj": {
+              "projectPath": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj"
             }
           }
         }

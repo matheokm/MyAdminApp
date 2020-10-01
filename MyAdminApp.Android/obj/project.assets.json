@@ -2052,11 +2052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
       "projectName": "MyAdminApp.Android",
-      "projectPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
+      "projectPath": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp.Android\\MyAdminApp.Android.csproj",
       "packagesPath": "C:\\Users\\matheokm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2077,8 +2077,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj": {
-              "projectPath": "C:\\Users\\matheokm\\Source\\Repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj"
+            "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj": {
+              "projectPath": "C:\\Users\\matheokm\\source\\repos\\MyAdminApp\\MyAdminApp\\MyAdminApp.csproj"
             }
           }
         }

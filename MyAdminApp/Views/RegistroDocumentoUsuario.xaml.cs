@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyAdminApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,13 @@ namespace MyAdminApp.Views
         public RegistroDocumentoUsuario()
         {
             InitializeComponent();
+        }
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            ResgistrosViewModel rvm = (BindingContext as ResgistrosViewModel);
+            await rvm.ObtenerUsuarios();
         }
     }
 }
